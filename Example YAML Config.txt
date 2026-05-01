@@ -7,7 +7,7 @@ external_components:
 i2c:
   id: bus_a
   sda: GPIO33
-  scl: GPIO35
+  scl: GPIO32 # (GPIO35 IS ONLY FOR INPUT)
   scan: true
 
 vl6180x:
